@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MINORITY.vf
+// /___/   /\     Timestamp : 04/21/2018 11:09:29
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog /home/udagawa/projects/FPGA/MINORITY/MINORITY/MINORITY.vf -w /home/udagawa/projects/FPGA/MINORITY/MINORITY/MINORITY.sch
+//Design Name: MINORITY
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module MINORITY(A, 
+                B, 
+                C, 
+                Y);
+
+    input A;
+    input B;
+    input C;
+   output Y;
+   
+   wire XLXN_3;
+   
+   XOR2  XLXI_2 (.I0(C), 
+                .I1(XLXN_3), 
+                .O(Y));
+   NOR2  XLXI_3 (.I0(B), 
+                .I1(A), 
+                .O(XLXN_3));
+endmodule

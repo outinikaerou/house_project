@@ -1,0 +1,85 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'T_ROT_7SEG'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx4-cpg196-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o T_ROT_7SEG_map.ncd T_ROT_7SEG.ngd T_ROT_7SEG.pcf 
+Target Device  : xc6slx4
+Target Package : cpg196
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Sat Apr 28 10:48:20 2018
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Pack:198 - NCD was not produced.  All logic was removed from the design. 
+   This is usually due to having no input or output PAD connections in the
+   design and no nets or symbols marked as 'SAVE'.  You can either add PADs or
+   'SAVE' attributes to the design, or run 'map -u' to disable logic trimming in
+   the mapper.  For more information on trimming issues search the Xilinx
+   Answers database for "ERROR:Pack:198" and read the Master Answer Record for
+   MAP Trimming Issues.
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  19 block(s) removed
+  12 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "i0/XLXI_100" (OR) removed.
+ The signal "i0/XLXN_240" is loadless and has been removed.
+  Loadless block "i0/XLXI_107" (OR) removed.
+   The signal "i0/XLXN_204" is loadless and has been removed.
+    Loadless block "i0/XLXI_96" (XOR) removed.
+     The signal "N0" is loadless and has been removed.
+      Loadless block "XST_VCC" (ONE) removed.
+   The signal "i0/XLXN_206" is loadless and has been removed.
+    Loadless block "i0/XLXI_95" (XOR) removed.
+Loadless block "i0/XLXI_101" (OR) removed.
+ The signal "i0/XLXN_270" is loadless and has been removed.
+  Loadless block "i0/XLXI_115" (BUF) removed.
+   The signal "i0/XLXN_271" is loadless and has been removed.
+    Loadless block "i0/XLXI_114" (OR) removed.
+Loadless block "i0/XLXI_108" (BUF) removed.
+Loadless block "i0/XLXI_109" (BUF) removed.
+Loadless block "i0/XLXI_97" (OR) removed.
+ The signal "i0/XLXN_272" is loadless and has been removed.
+  Loadless block "i0/XLXI_116" (BUF) removed.
+   The signal "i0/XLXN_273" is loadless and has been removed.
+    Loadless block "i0/XLXI_113" (OR) removed.
+     The signal "i0/XLXN_300" is loadless and has been removed.
+      Loadless block "i0/XLXI_117" (BUF) removed.
+Loadless block "i0/XLXI_98" (OR) removed.
+Loadless block "i0/XLXI_99" (OR) removed.
+ The signal "i0/XLXN_229" is loadless and has been removed.
+  Loadless block "i0/XLXI_121" (BUF) removed.
+   The signal "i0/XLXN_278" is loadless and has been removed.
+    Loadless block "i0/XLXI_112" (OR) removed.
+     The signal "i0/XLXN_277" is loadless and has been removed.
+      Loadless block "i0/XLXI_122" (BUF) removed.

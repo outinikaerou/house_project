@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/udagawa/projects/FPGA/ROT_7SEG/ROT_7SEG.xst" -ofn "/home/udagawa/projects/FPGA/ROT_7SEG/ROT_7SEG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-cpg196-3 ROT_7SEG.ngc ROT_7SEG.ngd  
+map -intstyle ise -p xc6slx4-cpg196-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROT_7SEG_map.ncd ROT_7SEG.ngd ROT_7SEG.pcf 
+par -w -intstyle ise -ol high -mt off ROT_7SEG_map.ncd ROT_7SEG.ncd ROT_7SEG.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROT_7SEG.twx ROT_7SEG.ncd -o ROT_7SEG.twr ROT_7SEG.pcf 
+bitgen -intstyle ise -f ROT_7SEG.ut ROT_7SEG.ncd 

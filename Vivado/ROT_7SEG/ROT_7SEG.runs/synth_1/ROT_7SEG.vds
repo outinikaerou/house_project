@@ -1,0 +1,266 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Apr 29 14:20:54 2018
+# Process ID: 5760
+# Current directory: /home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.runs/synth_1
+# Command line: vivado -log ROT_7SEG.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ROT_7SEG.tcl
+# Log file: /home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.runs/synth_1/ROT_7SEG.vds
+# Journal file: /home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+CRITICAL WARNING: [Common 17-741] No write access right to the local Tcl store at '/home/udagawa/.Xilinx/Vivado/2018.1/XilinxTclStore'. XilinxTclStore is reverted to the installation area. If you want to use local Tcl Store, please change the access right and relaunch Vivado.
+source ROT_7SEG.tcl -notrace
+Command: synth_design -top ROT_7SEG -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5780 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1264.613 ; gain = 81.910 ; free physical = 3481 ; free virtual = 13345
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ROT_7SEG' [/home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ROT_7SEG' (1#1) [/home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1309.223 ; gain = 126.520 ; free physical = 3490 ; free virtual = 13356
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1309.223 ; gain = 126.520 ; free physical = 3476 ; free virtual = 13344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1309.223 ; gain = 126.520 ; free physical = 3475 ; free virtual = 13343
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.xdc]
+Finished Parsing XDC File [/home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ROT_7SEG_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ROT_7SEG_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1531.520 ; gain = 0.000 ; free physical = 3211 ; free virtual = 13112
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:43 ; elapsed = 00:01:21 . Memory (MB): peak = 1531.520 ; gain = 348.816 ; free physical = 3275 ; free virtual = 13181
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:43 ; elapsed = 00:01:21 . Memory (MB): peak = 1531.520 ; gain = 348.816 ; free physical = 3274 ; free virtual = 13180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:01:21 . Memory (MB): peak = 1531.520 ; gain = 348.816 ; free physical = 3277 ; free virtual = 13182
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "Y_tmp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:43 ; elapsed = 00:01:21 . Memory (MB): peak = 1531.520 ; gain = 348.816 ; free physical = 3266 ; free virtual = 13173
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ROT_7SEG 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "Y_tmp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-3917] design ROT_7SEG has port Dp driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:22 . Memory (MB): peak = 1531.520 ; gain = 348.816 ; free physical = 3253 ; free virtual = 13163
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:01:42 . Memory (MB): peak = 1583.520 ; gain = 400.816 ; free physical = 3126 ; free virtual = 13037
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:01:42 . Memory (MB): peak = 1583.520 ; gain = 400.816 ; free physical = 3126 ; free virtual = 13037
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:56 ; elapsed = 00:01:42 . Memory (MB): peak = 1583.520 ; gain = 400.816 ; free physical = 3126 ; free virtual = 13037
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:57 ; elapsed = 00:01:44 . Memory (MB): peak = 1583.520 ; gain = 400.816 ; free physical = 3126 ; free virtual = 13037
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:57 ; elapsed = 00:01:44 . Memory (MB): peak = 1583.520 ; gain = 400.816 ; free physical = 3126 ; free virtual = 13037
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:57 ; elapsed = 00:01:44 . Memory (MB): peak = 1583.520 ; gain = 400.816 ; free physical = 3126 ; free virtual = 13037
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:57 ; elapsed = 00:01:44 . Memory (MB): peak = 1583.520 ; gain = 400.816 ; free physical = 3126 ; free virtual = 13037
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:57 ; elapsed = 00:01:44 . Memory (MB): peak = 1583.520 ; gain = 400.816 ; free physical = 3126 ; free virtual = 13037
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:57 ; elapsed = 00:01:44 . Memory (MB): peak = 1583.520 ; gain = 400.816 ; free physical = 3125 ; free virtual = 13037
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     6|
+|2     |IBUF |     4|
+|3     |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    18|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:57 ; elapsed = 00:01:44 . Memory (MB): peak = 1583.520 ; gain = 400.816 ; free physical = 3125 ; free virtual = 13037
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:58 . Memory (MB): peak = 1583.520 ; gain = 178.520 ; free physical = 3179 ; free virtual = 13090
+Synthesis Optimization Complete : Time (s): cpu = 00:00:57 ; elapsed = 00:01:44 . Memory (MB): peak = 1583.527 ; gain = 400.816 ; free physical = 3186 ; free virtual = 13097
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:01 ; elapsed = 00:01:47 . Memory (MB): peak = 1598.520 ; gain = 421.633 ; free physical = 3174 ; free virtual = 13086
+INFO: [Common 17-1381] The checkpoint '/home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.runs/synth_1/ROT_7SEG.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ROT_7SEG_utilization_synth.rpt -pb ROT_7SEG_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.26 . Memory (MB): peak = 1622.531 ; gain = 0.000 ; free physical = 3172 ; free virtual = 13086
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 29 14:22:58 2018...

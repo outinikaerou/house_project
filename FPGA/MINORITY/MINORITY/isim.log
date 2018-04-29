@@ -1,0 +1,11 @@
+ISim log file
+Running: /home/udagawa/projects/FPGA/MINORITY/MINORITY/T_MINORITY_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/udagawa/projects/FPGA/MINORITY/MINORITY/T_MINORITY_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# exit 0

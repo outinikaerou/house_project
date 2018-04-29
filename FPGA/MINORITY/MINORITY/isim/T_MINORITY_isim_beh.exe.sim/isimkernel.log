@@ -1,0 +1,28 @@
+Command line:
+   T_MINORITY_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34750
+
+Sat Apr 21 17:07:38 2018
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 196.035 Meg
+
+ Total Signals          : 25
+ Total Nets             : 18
+ Total Signal Drivers   : 10
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 12
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 165
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 271.536 Meg
+
+Sat Apr 21 17:07:52 2018
+

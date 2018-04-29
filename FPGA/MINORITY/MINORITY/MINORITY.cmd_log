@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/udagawa/projects/FPGA/MINORITY/MINORITY/MINORITY.xst" -ofn "/home/udagawa/projects/FPGA/MINORITY/MINORITY/MINORITY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-cpg196-3 MINORITY.ngc MINORITY.ngd  
+map -intstyle ise -p xc6slx4-cpg196-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MINORITY_map.ncd MINORITY.ngd MINORITY.pcf 
+par -w -intstyle ise -ol high -mt off MINORITY_map.ncd MINORITY.ncd MINORITY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MINORITY.twx MINORITY.ncd -o MINORITY.twr MINORITY.pcf 
+xst -intstyle ise -ifn "/home/udagawa/projects/FPGA/MINORITY/MINORITY/MINORITY.xst" -ofn "/home/udagawa/projects/FPGA/MINORITY/MINORITY/MINORITY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-cpg196-3 MINORITY.ngc MINORITY.ngd  
+map -intstyle ise -p xc6slx4-cpg196-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MINORITY_map.ncd MINORITY.ngd MINORITY.pcf 
+par -w -intstyle ise -ol high -mt off MINORITY_map.ncd MINORITY.ncd MINORITY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MINORITY.twx MINORITY.ncd -o MINORITY.twr MINORITY.pcf 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="T_ROT_7SEG_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="T_ROT_7SEG" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1599997133fs"></ZoomStartTime>
+      <ZoomEndTime time="1600000574fs"></ZoomEndTime>
+      <Cursor1Time time="1600000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject type="array" fp_name="/T_ROT_7SEG/DECIN">
+      <obj_property name="ElementShortName">DECIN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DECIN[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/LED7">
+      <obj_property name="ElementShortName">LED7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LED7[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/j">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/B_DIS">
+      <obj_property name="ElementShortName">B_DIS[16:1]</obj_property>
+      <obj_property name="ObjectShortName">B_DIS[16:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/C_DIS">
+      <obj_property name="ElementShortName">C_DIS[16:1]</obj_property>
+      <obj_property name="ObjectShortName">C_DIS[16:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/E_DIS">
+      <obj_property name="ElementShortName">E_DIS[16:1]</obj_property>
+      <obj_property name="ObjectShortName">E_DIS[16:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/F_DIS">
+      <obj_property name="ElementShortName">F_DIS[16:1]</obj_property>
+      <obj_property name="ObjectShortName">F_DIS[16:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/Dp_DIS">
+      <obj_property name="ElementShortName">Dp_DIS[16:1]</obj_property>
+      <obj_property name="ObjectShortName">Dp_DIS[16:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/A_DIS">
+      <obj_property name="ElementShortName">A_DIS[32:1]</obj_property>
+      <obj_property name="ObjectShortName">A_DIS[32:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/D_DIS">
+      <obj_property name="ElementShortName">D_DIS[32:1]</obj_property>
+      <obj_property name="ObjectShortName">D_DIS[32:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/G_DIS">
+      <obj_property name="ElementShortName">G_DIS[32:1]</obj_property>
+      <obj_property name="ObjectShortName">G_DIS[32:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/T_ROT_7SEG/CYCLE">
+      <obj_property name="ElementShortName">CYCLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CYCLE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/T_ROT_7SEG/TURN_ON">
+      <obj_property name="ElementShortName">TURN_ON</obj_property>
+      <obj_property name="ObjectShortName">TURN_ON</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/T_ROT_7SEG/TURN_OFF">
+      <obj_property name="ElementShortName">TURN_OFF</obj_property>
+      <obj_property name="ObjectShortName">TURN_OFF</obj_property>
+   </wvobject>
+</wave_config>

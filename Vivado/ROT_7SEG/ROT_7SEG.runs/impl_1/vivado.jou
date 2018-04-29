@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Apr 29 14:23:00 2018
+# Process ID: 5927
+# Current directory: /home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.runs/impl_1
+# Command line: vivado -log ROT_7SEG.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ROT_7SEG.tcl -notrace
+# Log file: /home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.runs/impl_1/ROT_7SEG.vdi
+# Journal file: /home/udagawa/projects/Vivado/ROT_7SEG/ROT_7SEG.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source ROT_7SEG.tcl -notrace

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/udagawa/projects/FPGA/ROT_7SEG/ROT_7SEG.ncd
+OUTFILE=/home/udagawa/projects/FPGA/ROT_7SEG/ROT_7SEG.bit
+FAMILY=Spartan6
+PART=xc6slx4-3cpg196
+WORKINGDIR=/home/udagawa/projects/FPGA/ROT_7SEG
+LICENSE=WebPack
+USER_INFO=174462595_209872006_0_771
