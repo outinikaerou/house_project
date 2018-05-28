@@ -1,0 +1,403 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  tar xvf ~/ダウンロード/Xilinx_ISE_DS_Lin_14.7_1015_1.tar -C/tmp
+    4  cd /tmp/Xilinx_ISE_DS_Lin_14.7_1015_1/
+    5  ls
+    6  sudo ./xsetup 
+    7  cd /opt/Xilinx/14.7/ISE_DS/
+    8  ls
+    9  cd common/
+   10  ls
+   11  cd bin
+   12  la
+   13  cd lin64/
+   14  ls
+   15  ./xlcm 
+   16  pushd /tmp
+   17  unzip /media/udagawa/20989A45461FB442/Linux_Setup/libQt_Network.zip 
+   18  pushd
+   19  cd ../../
+   20  ls
+   21  cd data/
+   22  ls
+   23  cd ../lib/lin64/
+   24  pushd
+   25  ls
+   26  pushd
+   27  sudo cp /tmp/libQt_Network_lin64.so libQt_Network.so
+   28  cd ../../bin/lin64/
+   29  ls
+   30  ./xlcm 
+   31  cd ../..
+   32  ls
+   33  cd bin/
+   34  ls
+   35  cd lin64/
+   36  ls
+   37  cd ../../../
+   38  ls
+   39  cd ISE/bin/lin64/
+   40  ls
+   41  ./ise
+   42  cd
+   43  cd ダウンロード/
+   44  ls
+   45  chmod 755 Xilinx_Vivado_SDK_Web_2018.1_0405_1_Lin64.bin 
+   46  sudo ./Xilinx_Vivado_SDK_Web_2018.1_0405_1_Lin64.bin 
+   47  history 20
+   48  cd ダウンロード/;sudo ./Xilinx_Vivado_SDK_Web_2018.1_0405_1_Lin64.bin 
+   49  sudo apt install gconf
+   50  sudo apt install dconf-editor
+   51  history
+   52  chmod 755 Xilinx_Vivado_SDK_Web_2018.1_0405_1_Lin64.bin , sudo ./Xilinx_Vivado_SDK_Web_2018.1_0405_1_Lin64.bin 
+   53  sudo apt install gconf
+   54  cd ダウンロード/;sudo ./Xilinx_Vivado_SDK_Web_2018.1_0405_1_Lin64.bin 
+   55  ../
+   56  chmod 755 Xilinx_Vivado_SDK_Web_2018.1_0405_1_Lin64.bin , sudo ./Xilinx_Vivado_SDK_Web_2018.1_0405_1_Lin64.bin 
+   57  history
+   58  sudo ./Xilinx_Vivado_SDK_Web_2018.1_0405_1_Lin64.bin 
+   59  history
+   60  ls -la
+   61  cd .Xilinx/
+   62  ls -la
+   63  ./Xilinx.lic 
+   64  cd Vivado/
+   65  ls -la
+   66  cd 2018.1/
+   67  ls -la
+   68  cd ..
+   69  ls -la
+   70  cd
+   71  ls -la
+   72  /opt/Xilinx/Vivado/2018.1/bin/vivado &
+   73  /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/ise &
+   74  cd ~
+   75  pwd
+   76  mkdir projects
+   77  cd projects/
+   78  ls -la
+   79  mkdir FPGA
+   80  mkdir C
+   81  git 
+   82  sudo apt install git
+   83  ls -la
+   84  mkdir poem
+   85  cd poem/
+   86  ls -la
+   87  touch poem.txt
+   88  vi poem.txt 
+   89  git init
+   90  git status
+   91  git add -A
+   92  git status
+   93  git commit
+   94  git log
+   95  git status
+   96  vi poem.txt 
+   97  git status
+   98  git diff
+   99  git add -A
+  100  git commit
+  101  git log
+  102  git reset --hard HEAD^
+  103  cat poem.txt 
+  104  ls -la
+  105  cd ..
+  106  ls -la
+  107  cd poem/
+  108  ls -la
+  109  git reflog
+  110  git reset --hard HEAD@{1}
+  111  ls -la
+  112  cat poem.txt 
+  113  sudo apt install gimp
+  114  gimp
+  115  cd
+  116  echo $LANG
+  117  sudo apt-get install manpages-ja
+  118  locale
+  119  history
+  120  sudo apt install samba
+  121  sudo apt-get install manpages-ja manpages-ja-dev
+  122  man 3 printf
+  123  history
+  124  vim
+  125  sudo apt install vim
+  126  vim ~/.bashrc
+  127  vi .bashrc
+  128  source .bashrc
+  129  vi .bashrc
+  130  source .bashrc
+  131  echo
+  132  cal 04 2018 > cal_1.txt
+  133  mkdir linux_1
+  134  mv cal_1.txt linux_1
+  135  cd linux_1
+  136  ../
+  137  cd ..
+  138  env LANGUAGE=C LC_MESSAGES=C xdg-user-dirs-gtk-update
+  139  cd linux_1
+  140  cal 05 2018 > cal_2.txt
+  141  ls -l
+  142  ls -l > cal_ls.txt
+  143  env LANGUAGE=C LC_MESSAGES=C xdg-user-dirs-gtk-update
+  144  /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/ise &
+  145  chmod 755 chmod 755 *.desktop
+  146  cd デスクトップ
+  147  chmod 755 *.desktop
+  148  sudo gedit/opt/Xilinx/Vivado/2018.1/settings64.sh
+  149  chmod 755 *.desktop
+  150  sudo gedit/opt/Xilinx/Vivado/2018.1/settings64.sh
+  151  chmod 755 *.desktop
+  152  cd デスクトップ
+  153  ls -l
+  154  chmod 755 *.desktop
+  155  ls -l
+  156  cd
+  157  sudo gedit /opt/Xilinx/Vivado/2018.1/settings64.sh
+  158  history
+  159  sudo gedit /opt/Xilinx/Vivado/2018.1/settings64.sh
+  160  tar jxvf ~/ダウンロード/fritzing-0.9.3b.linux.AMD64.tar.bz2 
+  161  ./fritzing-0.9.3b.linux.AMD64/Fritzing 
+  162  bg
+  163  cd デスクトップ
+  164  ls
+  165  cp ise147_shortcut.desktop fritzing_shortcut.desktop 
+  166  gedit fritzing_shortcut.desktop 
+  167  ls ~/fritzing-0.9.3b.linux.AMD64/icons/fritzing_icon.png 
+  168  vi ~/デスクトップ/fritzing_shortcut.desktop 
+  169  chmod 755 ~/デスクトップ/fritzing_shortcut.desktop
+  170  vi ~/デスクトップ/fritzing_shortcut.desktop 
+  171  history
+  172  vi ~/デスクトップ/fritzing_shortcut.desktop 
+  173  vim help
+  174  vi help
+  175  history
+  176  vi ~/デスクトップ/fritzing_shortcut.desktop 
+  177  rm -r linux_1
+  178  mkdir linux_1
+  179  cd linux_1
+  180  cal 04 2018 > cal_1.txt
+  181  cal 05 2018 > cal_2.txt
+  182  ls -l
+  183  ls -l > cal_ls.txt
+  184  mkdir cal_dir1
+  185  mv cal_?.txt cal_dir1
+  186  cd cal_dir1
+  187  cat cal_1.txt cal_2.txt
+  188  cat cal_1.txt cal_2.txt > cal_1-2.txt
+  189  cat cal_1-2.txt
+  190  cd ../
+  191  cp -r cal_dir1 cal_dir2
+  192  ls -R
+  193  rm -r cal*
+  194  cd
+  195  sudo apt update
+  196  sudo apt upgrade
+  197  vim ~.vimrc
+  198  rm ~.vimrc
+  199  rm .vimrc
+  200  :echo $VIM
+  201  echo $VIM
+  202  vim .vimrc
+  203  vim test
+  204  echo "$PS1"
+  205  export PS1="[\u@\t \w$" 
+  206  export PS1="[\u@\t \w$ " 
+  207  ls
+  208  pwd
+  209  ls -la
+  210  vi .bashrc
+  211  export PS1="[\u@\t \w$" 
+  212  export PS1="[\u@\t \w]$" 
+  213  export PS1="[\u@\t \w] $" 
+  214  export PS1="[\u@\t\w] $" 
+  215  vi .bashrc
+  216  exit
+  217  vi .bashrc
+  218  exit
+  219  cd ダウンロード/
+  220  ls -la
+  221  chmod 755 krita-4.0.1-x86_64.appimage 
+  222  cd
+  223  cd projects/
+  224  mkdir Vivado
+  225  cd /tmp
+  226  unzip ~/ダウンロード/vivado-boards-master.zip 
+  227  cd vivado-boards-master/new/
+  228  ls
+  229  cd board_files/
+  230  ls
+  231  sudo cp -r /opt/Xilinx/Vivado/2018.1/data/boards/board_files/
+  232  sudo cp -r * /opt/Xilinx/Vivado/2018.1/data/boards/board_files/
+  233  ls -l /opt/Xilinx/Vivado/2018.1/data/boards/board_files/
+  234  cd /opt/Xilinx/14.7/
+  235  ls
+  236  cd ISE_DS/
+  237  ls
+  238  cd common/
+  239  ls
+  240  cd bin
+  241  ls
+  242  cd lin64/
+  243  ls
+  244  cd digilent/
+  245  ls
+  246  sudo ./install_digilent.sh 
+  247  ls /etc/udev/rules.d/
+  248  sudo cp /media/udagawa/20989A45461FB442/Linux_Setup/52-* .
+  249  ls
+  250  sudo mv 52-* /etc/udev/rules.d/
+  251  ls
+  252  cd ../../../..
+  253  ls
+  254  cd ISE/
+  255  ls
+  256  cd bin/lin64/
+  257  ls
+  258  ./impact &
+  259  sudo apt update
+  260  sudo apt install fxload
+  261  ./impact &
+  262  which fxload
+  263  cd ../../../
+  264  cd ../../Vivado/2018.1/data/xicom/cable_drivers/
+  265  ls
+  266  cd lin64/install_script/
+  267  ls
+  268  cd install_drivers/
+  269  ls
+  270  sudo ./install_digilent.sh 
+  271  cd /etc/udev/rules.d/
+  272  ls
+  273  sudo rm *
+  274  cd /opt/Xilinx/Vivado/2018.1/data/xicom/cable_drivers/lin64/install_script/install_drivers/
+  275  ls
+  276  sudo ./install_digilent.sh 
+  277  cd
+  278  cd projects/Vivado/
+  279  ls
+  280  gedit CmodA7_master.xdc
+  281  cd
+  282  cd projects/vivado
+  283  cd projects/
+  284  vivado
+  285  cd vivado
+  286  ls
+  287  cd Vivado
+  288  bkdir Chapter1
+  289  mkdir Chapter1
+  290  cd Chapter1/
+  291  gedit doc.v
+  292  cd
+  293  sudo install terapad
+  294  l
+  295  rmdir -r project_2
+  296  rmdir  project_2
+  297  rmdir -r project_2
+  298  rmdir -R project_2
+  299  rm -R project_2
+  300  rm project_1
+  301  rm -R project_1
+  302  rm -R project_3
+  303  ls -la
+  304  mkdir training-school
+  305  cd training-school/
+  306  ls -la
+  307  cd ..
+  308  rm -rf training-school/
+  309  cd projects/
+  310  ls -la
+  311  git init
+  312  ls -la
+  313  git status
+  314  git add -A
+  315  ls -al
+  316  rm -rf .git/
+  317  git init
+  318  git commit --allow-empty
+  319  git add -A
+  320  git commit
+  321  pwd
+  322  git remote add origin https://github.com/outinikaerou/training-school.git
+  323  git push -u origin master
+  324  cd FPGA/MINORITY/MINORITY/
+  325  ls -la
+  326  rm T_MINORITY_isim_beh1.wdb 
+  327  ls -la
+  328  cd ..
+  329  ls -la
+  330  rm -rf .git/
+  331  git init
+  332  git commit --allow-empty
+  333  git add -A
+  334  git commit
+  335  git remote add origin https://github.com/outinikaerou/training-school.git
+  336  git push -u origin master
+  337  cd
+  338  ls -la
+  339  git clone https://github.com/outinikaerou/training-school
+  340  cd training-school/
+  341  ls -la
+  342  touch README.md
+  343  vi README.md 
+  344  git status
+  345  git add -A
+  346  git commit
+  347  sudo apt install shutter
+  348  shutter
+  349  cd training-school
+  350  git status
+  351  git commit
+  352  git tree
+  353  git log
+  354  git push origin master
+  355  git fetch
+  356  git reset --hard origin/master
+  357  history
+  358  /opt/Xilinx/Vivado/2018.1/bin/vivado &
+  359  /usr/udagawa/lib/X11/fonts/TrueType
+  360  cd /usr/share/fonts/truetype/MPlusIPA
+  361  cd /usr/udagawa/fonts/truetype/MPlusIPA
+  362  cd /udagawa/share/fonts/truetype/MPlusIPA
+  363  cd /udagawa/share
+  364  cd /usr
+  365  ls
+  366  cd /usr/udagawa/fonts/truetype
+  367  cd /usr/udagawa/fonts
+  368  cd /usr/share/fonts
+  369  ls
+  370  cd truetype/
+  371  ls
+  372  cd
+  373  cd ダウンロード/
+  374  ls
+  375  cd fonts-DSEG_v045/
+  376  ls
+  377  cp DESG7Classic-Bolditalic
+  378  cp DESG7Classic-Bolditalic /usr/share/fonts/truetype
+  379  cd DSG7-Classic
+  380  cd DSGE7-Classic
+  381  cd DSEG7-Classic
+  382  ls
+  383  cp DSEG7Classic-BoldItalic.ttf /usr/share/fonts/truetype
+  384  sudo cp DSEG7Classic-BoldItalic.ttf /usr/share/fonts/truetype
+  385  cd /usr/share/fonts/truetype
+  386  ls
+  387  fc-cache -f -v
+  388  mount
+  389  cd /media/udagawa/SP605\ EK/
+  390  ls
+  391  cp TEST_SHIFTER.v ~/projects/FPGA/ISE/SHIFTER/
+  392  cd
+  393  cd /media/udagawa/SP605\ EK/
+  394  ls
+  395  cp TEST_DIV_CIR.v ~/projects/FPGA/ISE/DIV_CIR/
+  396  cd
+  397  cd /media/udagawa/SP605\ EK/
+  398  ls
+  399  sudo umount /media/udagawa/SP605\ EK 
+  400  cd
+  401  sudo umount /media/udagawa/SP605\ EK 
+  402  history
+  403  history > mount.log

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/udagawa/projects/FPGA/ISE/DIV_CIR/TEST_DIV_CIR.xst" -ofn "/home/udagawa/projects/FPGA/ISE/DIV_CIR/TEST_DIV_CIR.syr" 

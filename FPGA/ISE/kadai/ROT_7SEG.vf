@@ -1,0 +1,71 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ROT_7SEG.vf
+// /___/   /\     Timestamp : 05/04/2018 11:25:57
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog /home/udagawa/projects/FPGA/ISE/kadai/ROT_7SEG.vf -w /home/udagawa/projects/FPGA/ISE/kadai/ROT_7SEG.sch
+//Design Name: ROT_7SEG
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ROT_7SEG(R0, 
+                R1, 
+                R2, 
+                R3, 
+                A, 
+                B, 
+                C, 
+                D, 
+                E, 
+                F, 
+                G);
+
+    input R0;
+    input R1;
+    input R2;
+    input R3;
+   output A;
+   output B;
+   output C;
+   output D;
+   output E;
+   output F;
+   output G;
+   
+   wire Dp;
+   wire XLXN_45;
+   wire XLXN_46;
+   
+   AND2  XLXI_1 (.I0(R1), 
+                .I1(R0), 
+                .O(C));
+   INV  XLXI_2 (.I(R0), 
+               .O(XLXN_46));
+   INV  XLXI_3 (.I(R1), 
+               .O(XLXN_45));
+   AND2  XLXI_4 (.I0(XLXN_45), 
+                .I1(R0), 
+                .O(E));
+   AND2  XLXI_5 (.I0(XLXN_45), 
+                .I1(XLXN_46), 
+                .O(G));
+   BUF  XLXI_25 (.I(R2), 
+                .O(B));
+   BUF  XLXI_26 (.I(R3), 
+                .O(D));
+   VCC  XLXI_27 (.P(Dp));
+   GND  XLXI_28 (.G(F));
+   GND  XLXI_29 (.G(A));
+endmodule

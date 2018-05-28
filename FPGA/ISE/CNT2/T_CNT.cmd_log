@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/udagawa/projects/FPGA/ISE/CNT2/T_CNT.xst" -ofn "/home/udagawa/projects/FPGA/ISE/CNT2/T_CNT.syr" 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v" Line 20: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="817" delta="new" >"/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v" Line 23: System task <arg fmt="%s" index="1">stop</arg> ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v" Line 16: Using initial value of <arg fmt="%s" index="1">DECIN</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v" Line 26: Assignment to <arg fmt="%s" index="1">A_DIS</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v</arg>&quot; line <arg fmt="%s" index="2">12</arg>: Output port &lt;<arg fmt="%s" index="3">A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v</arg>&quot; line <arg fmt="%s" index="2">12</arg>: Output port &lt;<arg fmt="%s" index="3">B</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v</arg>&quot; line <arg fmt="%s" index="2">12</arg>: Output port &lt;<arg fmt="%s" index="3">C</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v</arg>&quot; line <arg fmt="%s" index="2">12</arg>: Output port &lt;<arg fmt="%s" index="3">D</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v</arg>&quot; line <arg fmt="%s" index="2">12</arg>: Output port &lt;<arg fmt="%s" index="3">Dp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v</arg>&quot; line <arg fmt="%s" index="2">12</arg>: Output port &lt;<arg fmt="%s" index="3">E</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v</arg>&quot; line <arg fmt="%s" index="2">12</arg>: Output port &lt;<arg fmt="%s" index="3">F</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/udagawa/projects/FPGA/ISE/ROT_7SEG_1/T_ROT_7SEG.v</arg>&quot; line <arg fmt="%s" index="2">12</arg>: Output port &lt;<arg fmt="%s" index="3">G</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">i0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">T_ROT_7SEG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+</messages>
+

@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/udagawa/projects/FPGA/ISE/UPDOWN_CNT2_beta/T_UPDOWN_CNT2_isim_beh.exe -prj /home/udagawa/projects/FPGA/ISE/UPDOWN_CNT2_beta/T_UPDOWN_CNT2_beh.prj work.T_UPDOWN_CNT2 work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/udagawa/projects/FPGA/ISE/UPDOWN_CNT2_beta/UPDOWN_CNT2.vf" into library work
+Analyzing Verilog file "/home/udagawa/projects/FPGA/ISE/UPDOWN_CNT2_beta/T_UPDOWN_CNT2.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94680 KB
+Fuse CPU Usage: 1780 ms
+Compiling module FD
+Compiling module XOR2
+Compiling module NAND2
+Compiling module INV
+Compiling module GND
+Compiling module UPDOWN_CNT2
+Compiling module T_UPDOWN_CNT2
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable /home/udagawa/projects/FPGA/ISE/UPDOWN_CNT2_beta/T_UPDOWN_CNT2_isim_beh.exe
+Fuse Memory Usage: 392716 KB
+Fuse CPU Usage: 1800 ms
+GCC CPU Usage: 520 ms

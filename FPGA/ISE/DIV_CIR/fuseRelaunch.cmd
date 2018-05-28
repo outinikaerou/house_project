@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/udagawa/projects/FPGA/ISE/DIV_CIR/TEST_DIV_CIR_isim_beh.exe" -prj "/home/udagawa/projects/FPGA/ISE/DIV_CIR/TEST_DIV_CIR_beh.prj" "work.TEST_DIV_CIR" "work.glbl" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/udagawa/projects/FPGA/ISE/SHIFTER/TEST_SHIFTER_isim_beh.exe" -prj "/home/udagawa/projects/FPGA/ISE/SHIFTER/TEST_SHIFTER_beh.prj" "work.TEST_SHIFTER" "work.glbl" 

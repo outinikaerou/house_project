@@ -1,0 +1,3 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+$finish called at time : 800 ns : File "/home/udagawa/projects/FPGA/Vivado/DECODER7/TEST_DECODER7.v" Line 20

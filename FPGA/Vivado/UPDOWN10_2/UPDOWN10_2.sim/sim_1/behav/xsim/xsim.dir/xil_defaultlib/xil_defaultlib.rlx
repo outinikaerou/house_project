@@ -1,0 +1,9 @@
+0.6
+2018.1
+Apr  4 2018
+18:43:17
+/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/TEST_UPDOWN10.v,1527321063,verilog,,,,T_UPDOWN10,,,,,,,,
+/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/T_UPDOWN10.v,1527322591,verilog,,,,TEST_UPDOWN10,,,,,,,,
+/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.v,1527319948,verilog,,/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/T_UPDOWN10.v,,UPDOWN,,,,,,,,
+/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_3.v,1527321527,verilog,,/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/TEST_UPDOWN10.v,,UPDOWN10,,,,,,,,

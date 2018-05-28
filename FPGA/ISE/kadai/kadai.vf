@@ -1,0 +1,72 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : kadai.vf
+// /___/   /\     Timestamp : 05/04/2018 11:20:50
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog /home/udagawa/projects/FPGA/ISE/kadai/kadai.vf -w /home/udagawa/projects/FPGA/ISE/kadai/kadai.sch
+//Design Name: kadai
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module kadai(R0, 
+             R1, 
+             R2, 
+             R3, 
+             A, 
+             B, 
+             C, 
+             D, 
+             Dp, 
+             E, 
+             F, 
+             G);
+
+    input R0;
+    input R1;
+    input R2;
+    input R3;
+   output A;
+   output B;
+   output C;
+   output D;
+   output Dp;
+   output E;
+   output F;
+   output G;
+   
+   wire XLXN_45;
+   wire XLXN_46;
+   
+   AND2  XLXI_1 (.I0(R1), 
+                .I1(R0), 
+                .O(C));
+   AND2  XLXI_2 (.I0(XLXN_45), 
+                .I1(R0), 
+                .O(E));
+   AND2  XLXI_3 (.I0(XLXN_45), 
+                .I1(XLXN_46), 
+                .O(G));
+   INV  XLXI_4 (.I(R0), 
+               .O(XLXN_46));
+   INV  XLXI_5 (.I(R1), 
+               .O(XLXN_45));
+   BUF  XLXI_25 (.I(R2), 
+                .O(B));
+   BUF  XLXI_26 (.I(R3), 
+                .O(D));
+   VCC  XLXI_27 (.P(Dp));
+   GND  XLXI_28 (.G(F));
+   GND  XLXI_29 (.G(A));
+endmodule

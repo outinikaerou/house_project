@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UPDOWN
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/T_UPDOWN10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TEST_UPDOWN10

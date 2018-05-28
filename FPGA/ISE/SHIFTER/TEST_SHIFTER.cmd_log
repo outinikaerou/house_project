@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/udagawa/projects/FPGA/ISE/SHIFTER/TEST_SHIFTER.xst" -ofn "/home/udagawa/projects/FPGA/ISE/SHIFTER/TEST_SHIFTER.syr" 

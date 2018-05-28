@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : DIV_CIR.vf
+// /___/   /\     Timestamp : 05/07/2018 18:12:42
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog /home/udagawa/projects/FPGA/ISE/DIV_CIR/DIV_CIR.vf -w /home/udagawa/projects/FPGA/ISE/DIV_CIR/DIV_CIR.sch
+//Design Name: DIV_CIR
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module DIV_CIR(CLK, 
+               Q1, 
+               Q2);
+
+    input CLK;
+   output Q1;
+   output Q2;
+   
+   wire XLXN_3;
+   wire XLXN_6;
+   wire Q1_DUMMY;
+   wire Q2_DUMMY;
+   
+   assign Q1 = Q1_DUMMY;
+   assign Q2 = Q2_DUMMY;
+   FD #( .INIT(1'b0) ) XLXI_1 (.C(CLK), 
+              .D(XLXN_3), 
+              .Q(Q1_DUMMY));
+   FD #( .INIT(1'b0) ) XLXI_2 (.C(Q1_DUMMY), 
+              .D(XLXN_6), 
+              .Q(Q2_DUMMY));
+   INV  XLXI_3 (.I(Q1_DUMMY), 
+               .O(XLXN_3));
+   INV  XLXI_5 (.I(Q2_DUMMY), 
+               .O(XLXN_6));
+endmodule

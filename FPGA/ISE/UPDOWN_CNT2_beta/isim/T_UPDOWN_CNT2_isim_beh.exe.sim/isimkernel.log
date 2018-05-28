@@ -1,0 +1,29 @@
+Command line:
+   T_UPDOWN_CNT2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56635
+
+Sun May 20 22:49:42 2018
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 196.039 Meg
+
+ Total Signals          : 68
+ Total Nets             : 30
+ Total Signal Drivers   : 24
+ Total Blocks           : 16
+ Total Primitive Blocks : 14
+ Total Processes        : 33
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 148
+Total Line Count : 40
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 271.54 Meg
+
+Sun May 20 22:50:08 2018
+

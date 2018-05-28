@@ -1,0 +1,59 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : CNT2.vf
+// /___/   /\     Timestamp : 05/20/2018 21:07:06
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog /home/udagawa/projects/FPGA/ISE/CNT2_beta/CNT2.vf -w /home/udagawa/projects/FPGA/ISE/CNT2_beta/CNT2.sch
+//Design Name: CNT2
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module CNT2(CLK, 
+            CARRY, 
+            SIGMA0, 
+            SIGMA1);
+
+    input CLK;
+   output CARRY;
+   output SIGMA0;
+   output SIGMA1;
+   
+   wire SIGMA0a;
+   wire SIGMA1a;
+   wire XLXN_26;
+   wire XLXN_45;
+   wire XLXN_46;
+   
+   FD #( .INIT(1'b0) ) XLXI_1 (.C(CLK), 
+              .D(XLXN_46), 
+              .Q(SIGMA0a));
+   FD #( .INIT(1'b0) ) XLXI_2 (.C(CLK), 
+              .D(XLXN_26), 
+              .Q(SIGMA1a));
+   XOR2  XLXI_5 (.I0(SIGMA1a), 
+                .I1(SIGMA0a), 
+                .O(XLXN_26));
+   NAND2  XLXI_8 (.I0(SIGMA1a), 
+                 .I1(SIGMA0a), 
+                 .O(CARRY));
+   INV  XLXI_31 (.I(SIGMA0a), 
+                .O(XLXN_46));
+   INV  XLXI_32 (.I(SIGMA1a), 
+                .O(SIGMA1));
+   XOR2  XLXI_36 (.I0(XLXN_45), 
+                 .I1(XLXN_46), 
+                 .O(SIGMA0));
+   GND  XLXI_38 (.G(XLXN_45));
+endmodule

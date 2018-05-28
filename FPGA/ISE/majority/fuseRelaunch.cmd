@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/udagawa/projects/FPGA/ISE/majority/T_MAJORITY_isim_beh.exe" -prj "/home/udagawa/projects/FPGA/ISE/majority/T_MAJORITY_beh.prj" "work.T_MAJORITY" "work.glbl" 

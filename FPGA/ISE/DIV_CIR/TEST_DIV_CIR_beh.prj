@@ -1,0 +1,3 @@
+verilog work "DIV_CIR.vf"
+verilog work "TEST_DIV_CIR.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat May 19 17:03:17 2018
+# Process ID: 18588
+# Current directory: /home/udagawa/projects/FPGA/Vivado/CNT2/CNT2.runs/synth_1
+# Command line: vivado -log CLOCK_GEN.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CLOCK_GEN.tcl
+# Log file: /home/udagawa/projects/FPGA/Vivado/CNT2/CNT2.runs/synth_1/CLOCK_GEN.vds
+# Journal file: /home/udagawa/projects/FPGA/Vivado/CNT2/CNT2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source CLOCK_GEN.tcl -notrace

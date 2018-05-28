@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/udagawa/projects/FPGA/Vivado/UPDOWN/T_COUNT4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TEST_COUNT4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/udagawa/projects/FPGA/Vivado/UPDOWN/UPDOWN.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,12 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/udagawa/projects/FPGA/ISE/kadai/T_ROT_7SEG_isim_beh.exe -prj /home/udagawa/projects/FPGA/ISE/kadai/T_ROT_7SEG_beh.prj work.T_ROT_7SEG work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/udagawa/projects/FPGA/ISE/kadai/ROT_7SEG.vf" into library work
+Analyzing Verilog file "/home/udagawa/projects/FPGA/ISE/kadai/T_ROT_7SEG.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:267 - "/home/udagawa/projects/FPGA/ISE/kadai/T_ROT_7SEG.v" Line 12: Cannot find port Dp on this module
+ERROR:HDLCompiler:25 - "/home/udagawa/projects/FPGA/ISE/kadai/T_ROT_7SEG.v" Line 14: Module <ROT_7SEG> does not have a port named <Dp>.
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed
