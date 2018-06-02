@@ -15,15 +15,15 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 10711 
+INFO: Helper process launched with PID 8586 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1264.617 ; gain = 81.895 ; free physical = 2928 ; free virtual = 13156
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1264.617 ; gain = 81.895 ; free physical = 2314 ; free virtual = 12615
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'UPDOWN' [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.v:1]
 	Parameter SEC1_MAX bound to: 6000000 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'UPDOWN' (1#1) [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.v:1]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1309.227 ; gain = 126.504 ; free physical = 2939 ; free virtual = 13167
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1309.227 ; gain = 126.504 ; free physical = 2326 ; free virtual = 12627
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -36,10 +36,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1309.227 ; gain = 126.504 ; free physical = 2938 ; free virtual = 13166
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1309.227 ; gain = 126.504 ; free physical = 2325 ; free virtual = 12626
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1309.227 ; gain = 126.504 ; free physical = 2938 ; free virtual = 13166
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1309.227 ; gain = 126.504 ; free physical = 2325 ; free virtual = 12626
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -47,17 +47,29 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc]
-WARNING: [Vivado 12-584] No ports matched 'count[3]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:7]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:7]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'count[0]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:11]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:11]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'count[1]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:12]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:12]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'count[2]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'count[0]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:13]
 CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[1]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[2]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[3]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[4]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[5]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[6]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[7]'. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc:22]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/UPDOWN_propImpl.xdc].
@@ -67,26 +79,26 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1596.531 ; gain = 0.000 ; free physical = 2683 ; free virtual = 12910
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1596.531 ; gain = 0.000 ; free physical = 2109 ; free virtual = 12405
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2759 ; free virtual = 12985
+Finished Constraint Validation : Time (s): cpu = 00:00:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2192 ; free virtual = 12488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2759 ; free virtual = 12985
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2192 ; free virtual = 12488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2761 ; free virtual = 12987
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2193 ; free virtual = 12489
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "ENABLE" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2752 ; free virtual = 12978
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:43 ; elapsed = 00:01:16 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2184 ; free virtual = 12480
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -139,7 +151,7 @@ Start Cross Boundary and Area Optimization
 Warning: Parallel synthesis criteria is not met 
 INFO: [Synth 8-5546] ROM "ENABLE" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:17 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2739 ; free virtual = 12968
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:17 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2172 ; free virtual = 12470
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -151,13 +163,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:01:37 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2629 ; free virtual = 12858
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:01:37 . Memory (MB): peak = 1596.531 ; gain = 413.809 ; free physical = 2044 ; free virtual = 12346
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:01:37 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2627 ; free virtual = 12856
+Finished Timing Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:01:37 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2042 ; free virtual = 12345
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -169,7 +181,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:56 ; elapsed = 00:01:37 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2627 ; free virtual = 12856
+Finished Technology Mapping : Time (s): cpu = 00:00:57 ; elapsed = 00:01:37 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2042 ; free virtual = 12345
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -193,7 +205,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2628 ; free virtual = 12856
+Finished IO Insertion : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2042 ; free virtual = 12345
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -206,7 +218,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2628 ; free virtual = 12856
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2042 ; free virtual = 12345
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -218,25 +230,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2628 ; free virtual = 12856
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2042 ; free virtual = 12345
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2628 ; free virtual = 12856
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2042 ; free virtual = 12345
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2628 ; free virtual = 12856
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2042 ; free virtual = 12345
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2628 ; free virtual = 12856
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2042 ; free virtual = 12345
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -254,7 +266,7 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY4 |     6|
-|3     |LUT1   |     6|
+|3     |LUT1   |     2|
 |4     |LUT2   |    24|
 |5     |LUT3   |     1|
 |6     |LUT4   |     5|
@@ -269,14 +281,14 @@ Report Instance Areas:
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |    81|
+|1     |top      |       |    77|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2628 ; free virtual = 12856
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.539 ; gain = 421.816 ; free physical = 2042 ; free virtual = 12345
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:55 . Memory (MB): peak = 1604.539 ; gain = 134.512 ; free physical = 2682 ; free virtual = 12911
-Synthesis Optimization Complete : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.547 ; gain = 421.816 ; free physical = 2688 ; free virtual = 12916
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:55 . Memory (MB): peak = 1604.539 ; gain = 134.512 ; free physical = 2097 ; free virtual = 12399
+Synthesis Optimization Complete : Time (s): cpu = 00:00:58 ; elapsed = 00:01:38 . Memory (MB): peak = 1604.547 ; gain = 421.816 ; free physical = 2099 ; free virtual = 12402
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -286,10 +298,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-16 Infos, 4 Warnings, 4 Critical Warnings and 0 Errors encountered.
+16 Infos, 8 Warnings, 8 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:41 . Memory (MB): peak = 1604.547 ; gain = 427.656 ; free physical = 2679 ; free virtual = 12908
+synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:41 . Memory (MB): peak = 1604.547 ; gain = 427.656 ; free physical = 2095 ; free virtual = 12397
 INFO: [Common 17-1381] The checkpoint '/home/udagawa/projects/FPGA/Vivado/UPDOWN10_2/UPDOWN10_2.runs/synth_1/UPDOWN.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file UPDOWN_utilization_synth.rpt -pb UPDOWN_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.17 . Memory (MB): peak = 1628.551 ; gain = 0.000 ; free physical = 2679 ; free virtual = 12908
-INFO: [Common 17-206] Exiting Vivado at Sat May 26 16:16:00 2018...
+report_utilization: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.16 . Memory (MB): peak = 1628.551 ; gain = 0.000 ; free physical = 2095 ; free virtual = 12397
+INFO: [Common 17-206] Exiting Vivado at Sat Jun  2 10:41:51 2018...

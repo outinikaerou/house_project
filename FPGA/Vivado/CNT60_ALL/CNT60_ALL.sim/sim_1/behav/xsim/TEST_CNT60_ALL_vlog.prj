@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CNT60.v" \
+"../../../../CNT_ALL.v" \
+"../../../../DECODER7.v" \
+"../../../../dcount.v" \
+"../../../../TEST_CNT60_ALL.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

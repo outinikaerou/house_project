@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
-| Date         : Sat May 26 16:16:00 2018
+| Date         : Sat Jun  2 10:41:51 2018
 | Host         : udagawa-Lenovo-G500 running 64-bit Ubuntu 16.04.4 LTS
 | Command      : report_utilization -file UPDOWN_utilization_synth.rpt -pb UPDOWN_utilization_synth.pb
 | Design       : UPDOWN
@@ -30,8 +30,8 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |   36 |     0 |     20800 |  0.17 |
-|   LUT as Logic          |   36 |     0 |     20800 |  0.17 |
+| Slice LUTs*             |   33 |     0 |     20800 |  0.16 |
+|   LUT as Logic          |   33 |     0 |     20800 |  0.16 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
 | Slice Registers         |   27 |     0 |     41600 |  0.06 |
 |   Register as Flip Flop |   27 |     0 |     41600 |  0.06 |
@@ -151,12 +151,12 @@ Table of Contents
 +----------+------+---------------------+
 | FDCE     |   27 |        Flop & Latch |
 | LUT2     |   24 |                 LUT |
-| LUT1     |    6 |                 LUT |
 | CARRY4   |    6 |          CarryLogic |
 | LUT4     |    5 |                 LUT |
 | OBUF     |    4 |                  IO |
 | LUT5     |    3 |                 LUT |
 | IBUF     |    3 |                  IO |
+| LUT1     |    2 |                 LUT |
 | LUT6     |    1 |                 LUT |
 | LUT3     |    1 |                 LUT |
 | BUFG     |    1 |               Clock |
