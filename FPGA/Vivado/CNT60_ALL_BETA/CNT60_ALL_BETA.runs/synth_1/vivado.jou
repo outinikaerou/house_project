@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jun  4 18:43:42 2018
+# Process ID: 10719
+# Current directory: /home/udagawa/projects/FPGA/Vivado/CNT60_ALL_BETA/CNT60_ALL_BETA.runs/synth_1
+# Command line: vivado -log CNT60_ALL.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CNT60_ALL.tcl
+# Log file: /home/udagawa/projects/FPGA/Vivado/CNT60_ALL_BETA/CNT60_ALL_BETA.runs/synth_1/CNT60_ALL.vds
+# Journal file: /home/udagawa/projects/FPGA/Vivado/CNT60_ALL_BETA/CNT60_ALL_BETA.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source CNT60_ALL.tcl -notrace
